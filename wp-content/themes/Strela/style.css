@@ -1,0 +1,161 @@
+/*
+/*Theme Name: Team Strela site
+/*Author: Leon Redžić
+/*Date: May 2014
+/*Version 1.4
+*/
+
+
+body {
+	background-color:#778899;
+	color: #666;
+	font-size: 87.5%; /* base font size is 14 px */
+	font-family : Arial, 'Lucide Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+
+.body {
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+
+}
+
+.glavnaslika {
+	width: 42%;
+	height: auto;
+	margin: 2% 30%;
+}
+
+.title {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	color: black;
+	font-size: 28px;
+	text-align: center;
+	clear:both;
+
+	
+
+}
+.titlem {
+	color:blue;
+	font-size: 20px;
+	text-decoration:underline;
+
+}
+.mainContent {
+	line-height:25px;
+	color: #000000;
+
+}
+.content {
+	width:95%;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	margin-left: auto;
+    margin-right: auto ;
+    font-weight:bold;
+
+	/*background-color: #1A76CF;*/
+	
+}
+.member-text {
+	
+	height:35%;
+	width: 35%;
+	font-size: 13px;
+	font-style: normal;
+}
+.prvi_ispravak    {
+	float:right;
+	height:auto;
+	width: 35%;
+	position: relative;
+	margin: auto;
+	padding-bottom: 20px;
+}
+.member-text-left {
+	margin-right: auto;
+	margin-left: 0%;
+	float:left;
+	height:35%;
+	width: 35%;
+	font-size: 13px;
+	font-style: normal;
+	padding-bottom: 10px;
+}
+.member-text-right {
+	margin-right: 0%;
+	margin-left: auto;
+	float:right;
+	height:35%;
+	width: 35%;
+	font-size: 13px;
+	font-style: normal;
+	padding-bottom:10px;
+
+}
+
+.topcontent {
+	width:100%;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+	clear:both
+}
+.bottomcontent {
+	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+
+.post-info {
+	font-style: italic;
+	color: #999;
+	font-size: 85%;
+}
+
+.mainfooter {
+	width: 100%;
+	height: 40px;
+	
+}
+
+.mainfooter p {
+	text-align: right;
+	width: 100%;
+	margin: 2px auto;
+	color: #000000;
+}
+nav{
+    margin-top: 10px;
+}
+nav>div{
+    display: inline-block;
+    height: 30px;
+    width: 100px;
+    padding-top: 15px;
+    padding-left: 5px;
+    border: 1px solid black;
+}
+form {
+    margin-top: 10%;
+    margin-left: 30%;
+}
+
+.crop {
+    width: 480px;
+    height: 720px;
+   
+}
+.crop>img {
+}
