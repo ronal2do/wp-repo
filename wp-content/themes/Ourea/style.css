@@ -1,0 +1,90 @@
+/*
+Theme Name: Ourea
+Author: Leon Redžić
+Author URI: http://leon-redzic.from.hr
+Description: The toughest theme out there.
+*/
+.container-fixed {
+  margin: 0 auto;
+  width: 1218px;
+    
+}
+body {
+    
+    padding-top: 70px;
+}
+.navbar{
+    background-color: rgb(162, 180, 180);
+}
+.navbar-brand{
+    color: white !important;
+}
+.post{
+    
+}
+.wp-post-image{
+    position: relative;
+    float: left;
+}
+.head-thumb {
+    height: 400px;
+    width: 400px;
+    margin: 3px;
+    padding: 0;
+    float: left;
+    color: white;
+    position: relative;
+}
+.head-thumb:hover {
+    color: #edfc40;
+   
+}
+.thumb-title {
+    width:100%;
+   bottom: 0px;
+    padding: 5px 8px;
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    font-family: monospace;
+    text-shadow: 2px 2px 2px #000;    
+}
+.site-title{
+    color: #656565;
+}
+.site-title:hover{
+    text-decoration: none;
+    color: #afb2a0;
+}
+.container-homepage{
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 1218px;
+}
+#menu>li>a{
+    color: white;
+    
+}
+#top-cat{
+    color: white;
+    font-size: 110%;
+    font-weight: 300;     
+}
+@media (max-width: 420px){
+    .head-thumb img{
+      width: 380px;
+    }
+}
+@media (max-width: 1240px){
+    .container-homepage{
+        height: 400px;
+        width: 812px;
+    }
+}
+@media (max-width: 830px){
+    .container-homepage{
+        height: 400px;
+        width: 406px;
+    }
+}
