@@ -32,8 +32,8 @@ define('DB_CHARSET', 'utf8mb4');
 
 /** The Database Collate type. Don't change this if in doubt. */
 define('DB_COLLATE', '');
-define( 'WP_SITEURL', 'http://localhost/wp' );
-define( 'WP_HOME', 'http://localhost/wp' );
+define( 'WP_SITEURL', 'http://93.138.1.200/wp' );
+define( 'WP_HOME', 'http://93.138.1.200/wp' );
 
 
 /**#@+
